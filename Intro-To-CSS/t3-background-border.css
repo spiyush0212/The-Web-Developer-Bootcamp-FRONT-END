@@ -1,0 +1,21 @@
+body{
+	background: url(https://i.pinimg.com/736x/9a/39/f8/9a39f8980da59bcfc460a35794620982.jpg);
+	background-size: cover;
+}
+h1{
+	color: deeppink;
+	background: darkblue;
+}
+h2{
+	border-color: yellow;
+	border-width: 3px;
+	border-style: dotted;
+}
+h3{
+	border-color: #00AF23;
+	border-width: 5px;
+	border-style: double;
+}
+ul{
+	border: 10px #FAAA09 solid;
+}
