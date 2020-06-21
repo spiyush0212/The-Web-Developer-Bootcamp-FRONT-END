@@ -1,0 +1,12 @@
+h1 {
+	font-family: 'courier';
+	font-size: 60px;
+}
+p {
+	font-family: "arial";
+}
+span {
+	font-family: "times";
+	/*font-size: 30px;*/
+	font-size: 2em;
+}

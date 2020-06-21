@@ -1,0 +1,13 @@
+h1{
+	border-color: blue;
+	border-style: solid;
+	border-width: 2px;
+
+	width: 50%;
+
+	padding: 50px 20px;
+
+	margin: 100px;
+	margin-left: 40px;
+	margin-left: 20px;
+}
