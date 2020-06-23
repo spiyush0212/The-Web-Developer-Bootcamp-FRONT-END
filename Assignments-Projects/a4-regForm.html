@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Reg-Form</title>
+	</head>
+	<body>
+		<h1>Register</h1>
+		<form>
+			<div>
+				<!-- FIRSTNAME -->
+				<label for = "firstn">First Name:</label>
+				<input id = "firstn" type="text" placeholder="John" name="FANME" required>
+				<!-- LASTNAME -->
+				<label for = "lastn">Last Name:</label>
+				<input id = "lname" type="text" placeholder="Smith" name="LNAME" required>
+			</div>
+
+			<div>
+				<!-- SEX -->
+				<label for = "male">Male</label>
+				<input id = "male" type="radio" name="SEX" value = "1">
+				<label for = "female">Female</label>
+				<input id = "female" type="radio" name="SEX" value = "2">
+				<label for = "others">Others</label>
+				<input id = "others" type="radio" name="SEX" value = "3">
+			</div>
+
+			<div>
+				<!-- EMAIL -->
+				<label>
+					Email:
+					<input type="email" placeholder="Your Email" name="EMAIL" required>
+				</label>
+				<!-- PASSWORD -->
+				<label>
+					Password:
+					<input type="password" name="PASSWORD" minlength="5" maxlength="10" required>
+				</label>
+			</div>
+
+			<div>
+			<!-- BIRTHDAY -->
+			<label>
+				Birthday:
+				<select name = "date">
+					<option value="defaul">Date</option>
+					<option value="one">1</option>
+					<option value="two">2</option>
+					<option value="three">3</option>
+				</select>
+				<select name="month">
+					<option value = "default">Month</option>
+					<option>Jan</option>
+					<option>Feb</option>
+					<option>Mar</option>
+				</select>
+				<select name="year">
+					<option value="noInput">Year</option>
+					<option value="99">1999</option>
+					<option value="00">2000</option>
+					<option value="01">2001</option>
+				</select>
+			</label>
+			</div>
+
+			<div>
+			<!-- T&C -->
+				<label for = "tnc">I agree to the terms and conditions</label>
+				<input id = "tnc" type="checkbox" name="tnc">
+			</div>
+			<!-- SUBMIT -->
+			<button>Submit</button>
+		</form>
+	</body>
+</html>
