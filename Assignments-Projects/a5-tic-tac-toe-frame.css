@@ -1,0 +1,19 @@
+h1{
+	text-align: center;
+}
+
+table{
+	margin: auto;
+}
+
+tr:nth-of-type(2) td{
+	padding: 100px;
+	border-top: green 3px solid;
+	border-bottom: yellow 3px solid;
+}
+
+tr td:nth-of-type(2) {
+	padding: 100px;
+	border-left: black 3px solid;
+	border-right: blue 3px solid;
+}
