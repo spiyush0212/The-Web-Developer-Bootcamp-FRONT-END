@@ -1,0 +1,24 @@
+		body {
+			color: green;
+		}
+		div {
+			color: blue;
+		}
+		h1 {
+			color: yellow;
+		}
+		h2 {
+			color: brown;
+		}
+		ul {
+			color: pink;
+		}
+		li {
+			color: magenta;
+		}
+		.webdev {
+			color: grey;
+		}
+		#n {
+			color: orange;
+		}
