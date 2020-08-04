@@ -1,0 +1,22 @@
+/* #c1, #c2, #c3 {
+    border: 1px solid red;
+} */
+
+#nav {
+    background-color: rgb(14, 25, 48);
+}
+
+#jumbo {
+    /* background: url("4.jpg"); */
+    /* background-color: linear-gradient(rgba(0,0,0,0.9), rgba(0,0,0,0.9)); */
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('4.jpg');
+    background-position: center;
+    /* background-size: cover; */
+    background-repeat: no-repeat;
+    color: white;
+    font-family: 'Rowdies', cursive;
+}
+
+#text {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
